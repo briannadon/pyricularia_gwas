@@ -1,0 +1,27 @@
+questions:
+  - id: q1
+    stage: quality_control
+    text: |
+      How many total sequences were flagged for being poor quality?
+    answer_type: numeric_percent
+  - id: q2
+    stage: alignment
+    text: |
+      What is the total number of reads with quality score less than 20?
+    answer_type: integer_exact
+  - id: q3
+    stage: alignment
+    text: |
+      What percent of reads uniquely map to the reference genome?
+    answer_type: numeric_percent
+    tolerance: 0.75
+  - id: q4
+    stage: variant_calling
+    text: |
+      How many total variants were found?
+    answer_type: integer_exact
+  - id: q5
+    stage: variant_calling
+    text: |
+      How many variant sites have at least 1 alternate allele call?
+    answer_type: integer_exact
