@@ -1,0 +1,8 @@
+paper_title: Identification of genetic bases of male fertility in Pyricularia oryzae by Genome Wide Association Study (GWAS)
+doi: 10.1101/2024.04.25.591152 
+data_source: see samples.tsv
+domain: GWAS
+ref_genome: GCA_002368485.1_ASM236848v1_genomic.fna
+tools: [bwa, samtools, fastqc]
+estimated_runtime_minutes: 30
+estimated_time_for_human: 20
